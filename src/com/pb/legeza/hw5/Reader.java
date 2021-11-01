@@ -7,14 +7,14 @@ public class Reader {
     private String fio;
     private int number;
     private String faculty;
-    private String dob;
+    private String bithday;
     private String phone;
 
-    public Reader(String fio, int number, String faculty, String dob, String phone) {
+    public Reader(String fio, int number, String faculty, String bithday, String phone) {
         this.fio = fio;
         this.number = number;
         this.faculty = faculty;
-        this.dob = dob;
+        this.bithday = bithday;
         this.phone = phone;
     }
 
@@ -45,12 +45,12 @@ public class Reader {
         this.faculty = faculty;
     }
 
-    public String getDob() {
-        return dob;
+    public String getBithday() {
+        return bithday;
     }
 
-    public void setDob(String dob) {
-        this.dob = dob;
+    public void setBithday(String bithday) {
+        this.bithday = bithday;
     }
 
     public String getPhone() {
@@ -106,7 +106,7 @@ public class Reader {
                 "fio='" + fio + '\'' +
                 ", number=" + number +
                 ", faculty='" + faculty + '\'' +
-                ", dob='" + dob + '\'' +
+                ", dob='" + bithday + '\'' +
                 ", phone='" + phone + '\'' +
                 '}';
     }
