@@ -2,9 +2,9 @@ package com.pb.legeza.hw5;
 
 
 public class Library {public static void main(String[] args) {
-    Reader reader1 = new Reader("Петров В.В.", 1, "ИФ", "21.10.1999", "+806711111");
-    Reader reader2 = new Reader("Иванов И.И.", 2, "ИФ", "11.11.1997", "+806722222");
-    Reader reader3 = new Reader("Сидоров А.А.", 3, "ИФ", "05.04.2005", "+806733333");
+    Reader reader1 = new Reader("Петров В.В.", 1, "ФК-14-1", "15.01.1999", "+3801234567");
+    Reader reader2 = new Reader("Иванов И.И.", 2, "ФК-14-1", "18.03.1997", "+3801234567");
+    Reader reader3 = new Reader("Сидоров А.А.", 3, "ФК-14-1", "13.05.1998", "+3801234567");
     Reader[] readers = {reader1, reader2, reader3};
 
     Book book1 = new Book("Приключения", "Иванов И. И. ","2000 г.");
